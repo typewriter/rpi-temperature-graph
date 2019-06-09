@@ -1,0 +1,2 @@
+*/5 * * * * python3 ~/ambient/print_ambient.py >> /tmp/ambient.csv; tail -n 112 /tmp/ambient.csv > /tmp/ambient.csv.tmp; mv /tmp/ambient.csv.tmp /tmp/ambient.csv; python3 ~/ambient/display.py
+
